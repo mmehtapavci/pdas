@@ -1,8 +1,11 @@
+import React from 'react';
+import './css/ProfileCard.css';
+
 function ProfileCard({ title, handle, image, description }) {
 
 
     return (
-        <div className="card">
+        <div className=" profile-card card">
             <div className="card-image">
                 <figure className="image is-1by1" >
                     <img src={image} alt="pda logo" />

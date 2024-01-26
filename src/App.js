@@ -1,4 +1,5 @@
 import 'bulma/css/bulma.css';
+import './css/App.css';
 import ProfileCard from './ProfileCard';
 import AlexaImage from './images/alexa.png';
 import CortanaImage from './images/cortana.png';
